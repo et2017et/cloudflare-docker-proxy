@@ -7,7 +7,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "mydocker.thetw.xyz": dockerHub,
+  "registry.thetw.xyz": dockerHub,
   "quay.thetw.xyz": "https://quay.io",
   "gcr.thetw.xyz": "https://gcr.io",
   "k8s-gcr.lthetw.xyz": "https://k8s.gcr.io",
@@ -16,7 +16,7 @@ const routes = {
   "cloudsmith.thetw.xyz": "https://docker.cloudsmith.io",
 
   // staging
-  "docker-staging.libcuda.so": dockerHub,
+  "docker-staging.thetw.xyz": dockerHub,
 };
 
 function routeByHosts(host) {
